@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .show-nav {
+    @apply w-72 h-[400px] absolute right-0 top-10 flex items-center;
+  }
+}
